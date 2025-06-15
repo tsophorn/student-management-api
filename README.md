@@ -4,6 +4,11 @@ Web API using Express.js and Node.js  for School project.
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
+- **MySQL** (version 5.7 or higher recommended)
+  Install from https://dev.mysql.com/downloads/mysql/
+   ```bash
+  mysql --version
+
 
 - **Node.js** (version 16 or higher recommended)  
   Install from [https://nodejs.org/](https://nodejs.org/)  
