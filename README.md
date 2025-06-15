@@ -8,16 +8,12 @@ Before you begin, ensure you have met the following requirements:
   Install from https://dev.mysql.com/downloads/mysql/
    ```bash
   mysql --version
-
-
 - **Node.js** (version 16 or higher recommended)  
   Install from [https://nodejs.org/](https://nodejs.org/)  
   Verify installation with:
   ```bash
   node -v
   npm -v
-
-
 ## Installation
 ### Step 1: Node.js is installed:
 node -v
