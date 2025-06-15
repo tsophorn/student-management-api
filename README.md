@@ -37,7 +37,7 @@ DB_HOST=localhost
 
 JWT_SECRET=your_jwt_secret
 JWT_ACCESS_EXPIRES_IN=15m
-JWT_REFRESH_EXPIRES_IN=7d
+JWT_REFRESH_EXPIRES_IN=7d```
 
 
 ### Step 5: Start project 
