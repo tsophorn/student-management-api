@@ -1,8 +1,11 @@
 const { Sequelize } = require("sequelize");
-const sequelize = new Sequelize("student_management", "root", "root", {
-  host: "localhost",
-  dialect: "mysql",
-  port: 3307,
+const config = require("../config/config");
+
+const {database, username, password, host, port, dialect}= config.development;
+const sequelize = new Sequelize(database, username, password, {
+  host,
+  dialect,
+  port,
   logging: false,
 });
 
