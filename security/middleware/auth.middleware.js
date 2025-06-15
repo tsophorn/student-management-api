@@ -22,6 +22,7 @@ const auth = async (req, res, next) => {
       where: { id: decoded.id, isLogout: false },
     });
 
+
     if (!user) {
       return res.status(401).json({ error: unauthorizedMessage });
     }
