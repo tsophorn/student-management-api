@@ -4,6 +4,9 @@ const path = require("path");
 const app = express();
 const PORT = 3000;
 
+require('dotenv').config();
+
+
 // DB and models
 const dbModel = require("./models");
 
@@ -77,12 +80,6 @@ app.use(
     hidePoweredBy: true,
   })
 );
-
-//Rate limit
-const {
-  global: globalLimiter,
-} = require("./security/middleware/rate-limit.middleware");
-app.use(globalLimiter);
 
 // Start server
 app.listen(PORT, () => {
