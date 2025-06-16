@@ -28,7 +28,7 @@ exports.createStudent = [
 ];
 
 exports.updateStudent = [
-  param("id").isUUID().withMessage("Student ID must be a valid UUID"),
+  param("id").isInt().withMessage("Student ID must be a valid"),
 
   body("firstName")
     .optional()
